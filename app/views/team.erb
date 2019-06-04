@@ -4,9 +4,9 @@
     <h1>Team <%= @team_name %></h1>
     <h2>Team Motto: <%= @team_motto %></h2>
     <% @team_members.each do |hero| %>
-    <p>Hero Name: <%= hero["name"] %></p>
-    <p>Hero Power: <%= hero["power"] %>
-    <p>Hero Biography: <%= hero["bio"] %></p>
+    <p>Hero's Name: <%= hero["name"] %></p>
+    <p>Hero's Power: <%= hero["power"] %>
+    <p>Hero's Biography: <%= hero["bio"] %></p>
     <% end %>
   </body>
 </html>
